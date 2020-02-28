@@ -1,3 +1,18 @@
+* {
+    padding-top: 0;
+    vertical-align: baseline;
+}
+
+html, body, main {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    color: #333;
+    background-color: white;
+}
+
 .nav {
     display: flex;
     justify-content: space-between;
@@ -5,3 +20,33 @@
     margin-left: 10px;
     margin-right: 10px;
 }
+
+.article-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.article-image {
+    
+}
+
+.image {
+    width: 1000px;
+    height: 631.547px;
+}
+
+.article-2 {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Times New Roman';
+    font-size: 16px;
+    margin-right: 71.5px;
+    margin-left: 71.5;
+}
+
+.author-1 {
+    display: block;
+    margin-left: 255px;
+}
+
