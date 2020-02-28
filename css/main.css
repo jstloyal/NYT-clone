@@ -1,11 +1,17 @@
 * {
     padding-top: 0;
     vertical-align: baseline;
+    border: 1px solid red;
 }
 
 html, body, main {
     height: 100%;
     margin: 0;
+}
+
+html {
+    height: auto;
+    width: 100%;
 }
 
 body {
@@ -46,7 +52,12 @@ body {
 }
 
 .author-1 {
-    display: block;
+    display: flex;
+    float: left;
     margin-left: 255px;
+}
+
+.para {
+    margin-right: 0;
 }
 
