@@ -40,23 +40,19 @@ a {
 
 .time1 {
     display: flex;
-}
+} 
 
 .image {
     width: 1000px;
     height: 631.547px;
-}
-
-.article-2 {
-    display: flex;
-    flex-direction: row;
-    font-family: 'Times New Roman';
-    font-size: 16px;
-    margin-right: 71.5px;
-    margin-left: 71.5px;
-}
+} 
 
 .author-1 {
+    /* display: grid;
+    grid-template-columns: 71.5px 380px 1000px 380px 71.5px; */
+} 
+
+/* .author-1 {
     display: grid;
     grid-template-columns: 380px 1000px 380px;
     grid-template-rows: auto;
@@ -67,7 +63,7 @@ a {
     width: 1000px;
     /* margin-left: 450px; */
     /* flex-direction: row; */
-}
+/* }
 
 .time1 ul {
     display: flex;
@@ -80,5 +76,5 @@ a {
 .time2 {
     margin-right: 2px;
     margin-left: 700px;
-}
+} */ 
 
