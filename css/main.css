@@ -1,22 +1,17 @@
 * {
-    padding-top: 0;
-    vertical-align: baseline;
     border: 1px solid red;
 }
 
-html, body, main {
-    height: 100%;
-    margin: 0;
-}
 
 html {
     height: auto;
-    width: 100%;
+    width: 1908px;
 }
 
 body {
     color: #333;
     background-color: white;
+    width: 1908px;
 }
 
 a {
@@ -28,8 +23,6 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 10px;
-    margin-right: 10px;
 }
 
 .article-1 {
@@ -38,43 +31,14 @@ a {
     align-items: center;
 }
 
-.time1 {
-    display: flex;
-} 
-
 .image {
-    width: 1000px;
-    height: 631.547px;
+    width: 1200px;
+    height: 675px;
 } 
 
 .author-1 {
-    /* display: grid;
-    grid-template-columns: 71.5px 380px 1000px 380px 71.5px; */
-} 
-
-/* .author-1 {
     display: grid;
-    grid-template-columns: 380px 1000px 380px;
-    grid-template-rows: auto;
+    grid-template-columns: 900px 300px;
+    margin-left: 354px;
+    margin-right: 354px;
 }
-
-.para {
-    grid-column: 2;
-    width: 1000px;
-    /* margin-left: 450px; */
-    /* flex-direction: row; */
-/* }
-
-.time1 ul {
-    display: flex;
-    margin: 0;
-    list-style-type: none;
-    padding-left: 0;
-    width: 1000px;
-}
-
-.time2 {
-    margin-right: 2px;
-    margin-left: 700px;
-} */ 
-
