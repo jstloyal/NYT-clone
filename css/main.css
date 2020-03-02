@@ -5,13 +5,11 @@
 
 html {
     height: auto;
-    width: 1908px;
 }
 
 body {
     color: #333;
     background-color: white;
-    width: 1908px;
 }
 
 a {
@@ -32,13 +30,14 @@ a {
 }
 
 .image {
-    width: 1200px;
-    height: 675px;
+    width: 1000px;
+    height: 600px;
 } 
 
+.article-2{
+    margin-left: 400px;
+    margin-right: 400px;
+}
 .author-1 {
-    display: grid;
-    grid-template-columns: 900px 300px;
-    margin-left: 354px;
-    margin-right: 354px;
+    
 }
