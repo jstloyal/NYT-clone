@@ -82,3 +82,31 @@ h6 {
 aside {
     margin-top: 80px;
 }
+
+.inflation {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.inflation-heading {
+    margin-left: 1%;
+    margin-bottom: 1%;
+}
+
+.inflation-heading h4 {
+    margin-top: 1%;
+    margin-bottom: 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    grid-auto-rows: auto;
+    column-gap: 1%;
+    margin-left: 1%;
+}
+
+.grid-img {
+    width: 100%;
+    height: 60%;
+}
