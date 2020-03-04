@@ -10,6 +10,9 @@ html {
 body {
     color: #333;
     background-color: white;
+    font-family: georgia, 'times new roman', times,serif;
+    font-size: 1.25rem;
+    line-height: 1.87rem;
 }
 
 a {
@@ -17,10 +20,37 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 .nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    visibility: visible;
+    padding: 4px 15px 2px 15px;
+    background-color: white;
+}
+
+.navigation-link a {
+    padding: 1em;
+}
+
+.navigation-btn button {
+    background-color: #326891;
+    padding: 11px 12px 8px 12px;
+    border: 1px solid #326891;
+    color: white;
+    border-radius: 3px;
+
+}
+
+main {
+    margin-top: 50px;
 }
 
 .article-1 {
@@ -29,6 +59,16 @@ a {
     align-items: center;
     margin-left: 10%;
     margin-right: 10%;
+}
+
+.article-heading {
+    margin-right: 250px;
+}
+
+.article-heading h1 {
+    line-height: 5px;
+    font-size: 2.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .image {
@@ -78,10 +118,17 @@ h6 {
 .editor-text {
     position: absolute;
     margin: 7px;
+    font-size: small;
+    line-height: 20px;
 }
 
 aside {
     margin-top: 80px;
+}
+
+aside hr {
+    margin-left: 80px;
+    width: 200px;
 }
 
 .inflation {
@@ -181,6 +228,7 @@ aside {
 .advert {
     background-color: #eeeeeef5;
     height: 200px;
+    margin-top: 10px;
 }
 
 .footer-1 {
