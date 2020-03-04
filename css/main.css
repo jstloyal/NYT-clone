@@ -142,16 +142,21 @@ aside hr {
 
 .grid {
   display: grid;
-  grid-template-columns: 24% 24% 24% 24%;
+  grid-template-columns: 22% 22% 22% 22%;
   grid-auto-rows: auto;
-  column-gap: 1%;
+  column-gap: 3%;
   row-gap: 1%;
   margin-left: 1%;
 }
 
 .grid-img {
   width: 100%;
-  height: 50%;
+  height: 40%;
+}
+
+.box small {
+  font-size: 14px;
+  line-height: 20px;
 }
 
 .larry-buchanam {
@@ -210,8 +215,9 @@ aside hr {
   margin-bottom: 1em;
 }
 
-.grid-aside hr {
-  color: light grey;
+.grid-aside a h5 {
+  border-top: 1px solid gray;
+  width: 313px;
 }
 
 .editor {
@@ -303,6 +309,10 @@ aside hr {
 .footer-links li a img {
   width: 15px;
   height: 15px;
+}
+
+.footer-li {
+    border-top: 1px solid gray;
 }
 
 .angle {
