@@ -1,11 +1,17 @@
-# youtube-clone
+# New York Times clone
 
-> Positioning and Floating Elements
+> What the project is about
+
+Positioning and Floating Elements
+This project shows the New York times clone page and how the elements were positioned using Float, Grid, and Flexbox. 
+
+> How the project was done
+
+The Lay out shows the basic structure of the page using empty semantic HTML elements that are appropriately sized and positioned. 
+
+Set up the top navigation bar that stick on top of the page while we scroll down the page
 
 ![screenshot](img/readme.PNG)
-
-This project shows the New York times clone page and how the elements were positioned using Float, Grid, and Flexbox 
-
 
 ## Built With
 
