@@ -1,6 +1,6 @@
 
 *{
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 html {
   height: auto;
@@ -128,7 +128,7 @@ main {
   margin-left: 43%;
 }
 
-h6 {
+.editor-heading {
   margin-left: 80px;
 }
 
@@ -149,8 +149,8 @@ aside hr {
 }
 
 .inflation {
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .inflation-heading {
@@ -177,9 +177,9 @@ aside hr {
   height: 40%;
 }
 
-.box small {
+.box-small {
   font-size: 14px;
-  line-height: 20px;
+  margin: 5px;
 }
 
 .larry-buchanam {
@@ -205,9 +205,17 @@ aside hr {
   margin: 0;
 }
 
+.time1-btn {
+  background-color: #326891;
+  padding: 11px 60px 8px 60px;
+  border: 1px solid #326891;
+  color: white;
+  border-radius: 3px;
+}
+
 .main-grid {
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 20%;
+  margin-right: 20%;
   display: grid;
   grid-template-columns: 69% 29%;
   grid-template-rows: auto;
@@ -228,24 +236,29 @@ aside hr {
   height: 200px;
 }
 
-.grid-aside {
+.more-grid-6 {
+  line-height: 20px;
+}
+
+.more-grid-6 h6 {
   margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.grid-aside {
+  margin-top: 3%;
   width: 80%;
 }
 
-.grid-aside h5 {
-  margin-top: 1em;
-  margin-bottom: 1em;
-}
-
-.grid-aside a h5 {
-  border-top: 1px solid gray;
-  width: 313px;
+.grid-aside-6 {
+  margin: 0;
+  border-top: 1px solid lightgray;
+  line-height: 40px;
 }
 
 .editor {
-  margin-left: 10%;
-  margin-right: 35%;
+  margin-left: 20%;
+  margin-right: 45%;
 }
 
 .footer-1 {
