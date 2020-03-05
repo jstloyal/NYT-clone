@@ -27,7 +27,7 @@ a:hover {
   position: fixed;
   top: 0;
   visibility: visible;
-  padding: 4px 0px 4px 0px;
+  padding: 4px 0 4px 0;
   background-color: white;
 }
 
@@ -300,7 +300,7 @@ aside hr {
 }
 
 /* .fixed-footer {
-  
+
 } */
 
 .last-item {
@@ -330,23 +330,23 @@ aside hr {
   border-top: 1px solid black;
   position: fixed;
   left: 0;
-  bottom: 0; 
+  bottom: 0;
   width: 100%;
   background-color: white;
   visibility: visible;
-  padding: 15px 0px 6px 0px;
+  padding: 15px 0 6px 0;
 }
 
 .fixed-footer a {
   margin-left: 35%;
 }
 
-.fixed-footer a b {
-  margin-right: 9%;
-}
-
 .fixed-footer b {
   float: right;
+}
+
+.fixed-footer a b {
+  margin-right: 9%;
 }
 
 .under-hr {
