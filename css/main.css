@@ -253,7 +253,7 @@ aside hr {
 .grid-aside-6 {
   margin: 0;
   border-top: 1px solid lightgray;
-  line-height: 40px;
+  line-height: 25px;
 }
 
 .editor {
@@ -262,8 +262,8 @@ aside hr {
 }
 
 .footer-1 {
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .footer-logo {
@@ -296,6 +296,10 @@ aside hr {
   margin-left: 0;
 }
 
+/* .fixed-footer {
+  
+} */
+
 .last-item {
   border-left: 1px solid grey;
 }
@@ -315,15 +319,30 @@ aside hr {
   font-size: x-small;
   margin-left: 10%;
   margin-right: 10%;
+  margin-bottom: 100px;
 }
 
-.footer-2 p {
-  margin-left: 35%;
-  margin-right: 9%;
+.fixed-footer {
   font-size: 14px;
+  border-top: 1px solid black;
+  position: fixed;
+  left: 0;
+  bottom: 0; 
+  width: 100%;
+  background-color: white;
+  visibility: visible;
+  padding: 15px 0px 6px 0px;
 }
 
-.footer-2 p b {
+.fixed-footer a {
+  margin-left: 35%;
+}
+
+.fixed-footer a b {
+  margin-right: 9%;
+}
+
+.fixed-footer b {
   float: right;
 }
 
