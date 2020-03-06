@@ -20,7 +20,7 @@ Set up the top navigation bar that stick on top of the page while we scroll down
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/jstloyal/NYT-clone/38b1d8de2ec5876cecaee2557aef58dce52093f9/index.html)
+[Live Demo Link](https://rawcdn.githack.com/jstloyal/NYT-clone/ccdad6cc08da53a87cde75e3ffd07940f9f3aca4/index.html)
 
 
 ## Getting Started
