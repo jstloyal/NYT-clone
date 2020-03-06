@@ -145,8 +145,8 @@ aside hr {
 }
 
 .inflation {
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 18%;
+  margin-right: 18%;
   margin-top: 70px;
 }
 
@@ -162,11 +162,9 @@ aside hr {
 
 .grid {
   display: grid;
-  grid-template-columns: 20% 20% 20% 20%;
-  grid-auto-rows: auto;
-  column-gap: 5%;
-  row-gap: 1%;
-  margin-left: 1%;
+  grid-template-columns: 24% 24% 24% 24%;
+  column-gap: 2%;
+  row-gap: 2%;
 }
 
 .grid-img {
@@ -175,12 +173,22 @@ aside hr {
 }
 
 .box-small {
-  font-size: 14px;
+  font-size: 12px;
   margin: 5px;
+  line-height: 0px;
+}
+
+#grid4 {
+  margin-bottom: 20px;
+  height: 130px;
+}
+
+#grid5 {
+  height: 162px;
 }
 
 .larry-buchanam {
-  margin-top: 50px;
+  margin-top: 100px;
   margin-left: 20%;
 }
 
@@ -211,25 +219,25 @@ aside hr {
 }
 
 .main-grid {
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 10%;
+  margin-right: 10%;
   display: grid;
   grid-template-columns: 69% 29%;
   grid-template-rows: auto;
   column-gap: 2%;
-  margin-top: 1%;
+  margin-top: 2%;
 }
 
 .more-grid {
   display: grid;
-  grid-template-columns: 32.333% 32.333% 32.333%;
+  grid-template-columns: 33% 33% 33%;
   column-gap: 1%;
   row-gap: 1%;
   margin-left: 1%;
 }
 
 .more-grig-img {
-  width: 90%;
+  width: 100%;
   height: 180px;
 }
 
@@ -244,24 +252,29 @@ aside hr {
 
 .grid-aside {
   margin-top: 3%;
-  width: 80%;
+  width: 100%;
 }
 
 .grid-aside-Line {
   margin: 0;
-  width: 227px;
+  width: 300px;
 }
 
 .grid-aside-6 {
   margin: 0;
   border-top: 1px solid lightgray;
-  line-height: 25px;
-  font-size: 1em;
+  line-height: 35px;
+  font-size: 18px;
 }
 
 .editor {
-  margin-left: 20%;
+  margin-left: 10%;
   margin-right: 45%;
+}
+
+.editor-hr {
+  width: 55%;
+  margin-left: 10%;
 }
 
 .footer-1 {
@@ -298,10 +311,6 @@ aside hr {
   margin: 10px;
   margin-left: 0;
 }
-
-/* .fixed-footer {
-
-} */
 
 .last-item {
   border-left: 1px solid grey;
