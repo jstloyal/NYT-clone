@@ -175,7 +175,7 @@ aside hr {
 .box-small {
   font-size: 12px;
   margin: 5px;
-  line-height: 0px;
+  line-height: 1px;
 }
 
 #grid4 {
