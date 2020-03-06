@@ -219,13 +219,14 @@ aside hr {
 }
 
 .main-grid {
-  margin-left: 10%;
-  margin-right: 10%;
+  margin: auto;
   display: grid;
   grid-template-columns: 69% 29%;
   grid-template-rows: auto;
   column-gap: 2%;
   margin-top: 2%;
+  width: 80%;
+  margin-bottom: 0px;
 }
 
 .more-grid {
@@ -252,12 +253,12 @@ aside hr {
 
 .grid-aside {
   margin-top: 3%;
-  width: 100%;
+  width: 90%;
 }
 
 .grid-aside-Line {
   margin: 0;
-  width: 300px;
+  width: 270px;
 }
 
 .grid-aside-6 {
