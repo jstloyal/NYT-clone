@@ -252,7 +252,7 @@ aside hr {
   display: grid;
   grid-template-columns: 3fr 1fr;
   grid-template-rows: 74vh 26vh;
-  grid-template-areas:'main sidebar''main2 sidebar';
+  grid-template-areas: 'main sidebar''main2 sidebar';
   width: 63%;
   margin: auto;
   margin-bottom: 0;
